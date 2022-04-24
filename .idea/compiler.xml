@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-course" />
+        <module name="ecommerce-application" />
         <module name="ecommerce" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-course" options="-parameters" />
       <module name="ecommerce" options="-parameters" />
+      <module name="ecommerce-application" options="-parameters" />
     </option>
   </component>
 </project>
